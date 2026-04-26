@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Configuración dinámica de WhatsApp
     // Reemplaza este número por el celular de Víctor incluyendo el código de país (ej. 549 para Argentina)
-    const numeroVictor = "5492966000000"; 
-    const mensajePredefinido = encodeURIComponent("¡Hola Víctor! Vi la página de la rosticería. Quería consultar sobre...");
+    const numeroVictor = "5492966600937"; 
+    const mensajePredefinido = encodeURIComponent("¡Hola Víctor! Vi la página de la rosticería. Quería consultar por el menú");
     
     const whatsappLink = document.getElementById('whatsapp-link');
     whatsappLink.href = `https://wa.me/${numeroVictor}?text=${mensajePredefinido}`;
